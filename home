@@ -1,0 +1,44 @@
+<html>
+  <head>
+    <Title>NYC Iconic Artworks</Title>
+    <style>
+      body {
+        background-color: papayawhip;
+        font-family: Arial, sans-serif;
+      }
+      h1 {
+        text-align: center;
+        color: darkslategray;
+      }
+      .subcategories {
+        text-align: center;
+        margin-top: 20px;
+      }
+      .subcategories a {
+        margin: 0 15px;
+        text-decoration: none;
+        color: teal;
+        font-size: 18px;
+      }
+      .subcategories a:hover {
+        text-decoration: underline;
+      }
+      .gallery-image {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Welcome to the Virtual NYC Art Gallery</h1>
+    <img src="your-image-url.jpg" alt="NYC Art" class="gallery-image">
+    <div class="subcategories">
+      <a href="entry1.html">Financial District</a>
+      <a href="entry2.html">Midtown</a>
+      <a href="entry3.html">Hudson Yards</a>
+    </div>
+  </body>
+</html>
+
